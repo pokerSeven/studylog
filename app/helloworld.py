@@ -9,7 +9,7 @@ app = Flask(__name__)
 manager = Manager(app)
 app.config['SECRET_KEY'] = 'hard xvvv'
 app.config['SQLALCHEMY_DATABASE_URI'] = \
-    "mysql://root:1234@localhost/robo"
+    "mysql://root:1234@localhost/studylog"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
